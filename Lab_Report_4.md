@@ -18,6 +18,7 @@ Summarize of the commands I ran and the effect of those key presses: by using th
 First I open my Github account and copy the SSH URL for lab7
 
 Keys pressed: `clear`, `git clone <ctrl+v>`, `<enter>`
+
 Summarize of the commands I ran and the effect of those key presses: clear - I like to clear my terminal because It gives me a clean workspace. git clone command is used to make a copy of an existing repository into a new directory on your local machine.
 
 ## 6. Run the tests, demonstrating that they fail
