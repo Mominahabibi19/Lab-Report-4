@@ -6,13 +6,9 @@
 ![Image](login.png)
 
 I opened Visual Studio Code then I opened the terminal. I just typed 
-`
-ssh cs15lfa23hy@ieng6.ucsd.edu
-`
-then 
-`
-<enter>
-`
+
+Keys pressed: `ssh cs15lfa23hy@ieng6.ucsd.edu` then `<enter>`
+
 So by using the command ssh, I log in to my remote server. 
 
 ## 5. Clone your fork of the repository from your Github account (using the SSH URL)
@@ -21,7 +17,7 @@ So by using the command ssh, I log in to my remote server.
 
 First I open my Github account and copy the SSH URL for lab7
 
-Keys pressed: `clear`, `git clone <ctrl + v> ` , `<enter>`
+Keys pressed: `clear`, `git clone <ctrl+v>`, `<enter>`
 
 ## 6. Run the tests, demonstrating that they fail
 
@@ -50,12 +46,13 @@ Summarize of the commands I ran and the effect of those key presses: 4 times up 
 
 ## 9. Commit and push the resulting change to your Github account
 
-![Image](add.png)
-
-![Image](comm.png)
+![Image](IMG_4290.jpg)
 
 ![Image](push.png)
 
+Keys pressed: `git status`, `<enter>`, `git add ListExamples.java`, `enter`, `git commit`, `<enter>`, `<i>` I typed comment `I GOT THIS!!!`, `<esc>`, `:wq` then `<enter>`
+
+Summarize of the commands I ran and the effect of those key presses:
 ![Image](success.png)
 
 
