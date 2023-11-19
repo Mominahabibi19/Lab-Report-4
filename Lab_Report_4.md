@@ -9,7 +9,7 @@ I opened Visual Studio Code then I opened the terminal. I just typed
 
 Keys pressed: `ssh cs15lfa23hy@ieng6.ucsd.edu` then `<enter>`
 
-So by using the command ssh, I log in to my remote server. 
+Summarize of the commands I ran and the effect of those key presses: by using the command ssh, establish a secure connection to my remote server and I log in to my remote server. 
 
 ## 5. Clone your fork of the repository from your Github account (using the SSH URL)
 
@@ -18,6 +18,7 @@ So by using the command ssh, I log in to my remote server.
 First I open my Github account and copy the SSH URL for lab7
 
 Keys pressed: `clear`, `git clone <ctrl+v>`, `<enter>`
+Summarize of the commands I ran and the effect of those key presses: clear - I like to clear my terminal because It gives me a clean workspace. git clone command is used to make a copy of an existing repository into a new directory on your local machine.
 
 ## 6. Run the tests, demonstrating that they fail
 
@@ -26,7 +27,7 @@ Keys pressed: `clear`, `git clone <ctrl+v>`, `<enter>`
 Keys pressed: `cd lab7`, `clear`, `ls`, then I opened lab week4 I select `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` , `<ctrl+c>`, then I opened the terminal `<ctrl+v>`, `<enter>`. I did exactly the same thing for `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests` but I change the name of the file to ListExampleTests `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExampleTests` `<enter>`
 
 
-Summarize of the commands I ran and the effect of those key presses: cd lab7 - I changed my current directory to lab7. clear - I like to clear my terminal so It gives me a clean workspace. ls - to see all the list of files and directory of lab 7 so I know which file should I test. javac -cp - compiles all java files using specified classpath to include JUnit and hamcrest lib for running tests. java -cp - runs the Junit tests contained in the ListExampleTests class.
+Summarize of the commands I ran and the effect of those key presses: cd lab7 - I changed my current directory to lab7. ls - to see all the list of files and directory of lab 7 so I know which file should I test. javac -cp - compiles all java files using specified classpath to include JUnit and hamcrest lib for running tests. java -cp - runs the Junit tests contained in the ListExampleTests class.
 
 ## 7. Edit the code file to fix the failing test
 
@@ -50,9 +51,9 @@ Summarize of the commands I ran and the effect of those key presses: 4 times up 
 
 ![Image](push.png)
 
-Keys pressed: `git status`, `<enter>`, `git add ListExamples.java`, `enter`, `git commit`, `<enter>`, `<i>` I typed comment `I GOT THIS!!!`, `<esc>`, `:wq` then `<enter>`
+Keys pressed: `git status`, `<enter>`, `git add ListExamples.java`, `enter`, `git commit`, `<enter>`, `<i>` I typed comment `I GOT THIS!!!`, `<esc>`, `:wq` then `<enter>`, `git push`. 
 
-Summarize of the commands I ran and the effect of those key presses:
+Summarize of the commands I ran and the effect of those key presses: git status - this command displays the state of the working directory and it shows which changes have been staged and which haven't. git add command preparing the file ListExamples.java to be saved in your next commit of the repository. it means stages the file ListExamples.java for the next commit. git commit command open vim text editor so that i can write a commit message. pressing i in vim change the mode to inserting mode and I typed, "I GOT This!!!". pressing esc exit the insert mode and :wq save and exit the vim. git push command is used to upload local repository content to a remote repository in this case to my GitHub account. Finally, I opened my GitHub account and I saw that the commit was successfully pushed as I saw the new commit message "I GOT This!!!" in my GitHub repository. 
 ![Image](success.png)
 
 
