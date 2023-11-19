@@ -24,7 +24,12 @@ First I open my Github account and copy the SSH URL for lab7
 Keys pressed: `clear`, `git clone <ctrl + v> ` , `<enter>`
 
 ## 6. Run the tests, demonstrating that they fail
+
 ![Image](test.png)
+
+Keys pressed: `cd lab7`, `clear`, `ls`, then I opened lab week4 I select `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` , `<ctrl+c>`, then I opened the terminal `<ctrl+v>`, `<enter>`. I did exactly the same thing for `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests` but I change the name of the file to ListExampleTests `<enter>`
+
+Summarize of the commands I ran: cd lab7 - I changed my current directory to lab7. clear - I like to clear my terminal so It gives me a clean workspace. ls - to see all the list of files and directory of lab 7 so I know which file should I test. javac -cp - compiles all java files using specified classpath to include JUnit and hamcrest lib for running tests. java -cp - runs the Junit tests contained in the ListExampleTests class.
 
 ## 7. Edit the code file to fix the failing test
 ![Image](fixed.png)
