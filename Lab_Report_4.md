@@ -2,10 +2,26 @@
 *by Momina Habibi*
 
 ## 4. Log into ieng6
+
 ![Image](login.png)
 
+I opened Visual Studio Code then I opened the terminal. I just typed 
+`
+ssh cs15lfa23hy@ieng6.ucsd.edu
+`
+then 
+`
+<enter>
+`
+So by using the command ssh, I log in to my remote server. 
+
 ## 5. Clone your fork of the repository from your Github account (using the SSH URL)
+
 ![Image](git.png)
+
+First I open my Github account and copy the SSH URL for lab7
+
+Keys pressed: `clear`, `git clone <ctrl + v> ` , `<enter>`
 
 ## 6. Run the tests, demonstrating that they fail
 ![Image](test.png)
