@@ -44,7 +44,10 @@ Summarize of the commands I ran and the effect of those key presses: vim ListExa
 
 ![Image](pasd.png)
 
-Keys pressed: `clear` , `<up> <up> <up>` , `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, <enter>` , 
+Keys pressed: `clear` , `<up> <up> <up> <up>` , `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, <enter>` , `<up> <up> <up> <up>' , `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`
+
+Summarize of the commands I ran and the effect of those key presses: command was 4 times up in the search history 
+
 ## 9. Commit and push the resulting change to your Github account
 ![Image](add.png)
 
