@@ -38,9 +38,10 @@ Summarize of the commands I ran and the effect of those key presses: cd lab7 - I
 
 Keys pressed: `vim ListExamples.java`, `/index1 <enter>` , 18 times `<down>` `<right> <right> <right>` , `<i>` `<backspace>` type `2`, `<esc>`, `:wq` 
 
-Summarize of the commands I ran and the effect of those key presses: vim ListExamples.java - opens the file in vim test editor. /index1 - doing search 
+Summarize of the commands I ran and the effect of those key presses: vim ListExamples.java - opens the file in vim test editor. /index1 - begin a search for the string index1. 18 times down arrow key because the cursor was the first occurrence of index1 and I wanted the one in the final loop. the 3 time right to move the cursor to the position I want it. i - enter to insert mode in vim. backspace - deletes the character to the left of the cursor. 2 - inserts the character 2 so my test run successful. esc - exit the insert mode and return to normal mode. :wq - save the changes and quit vim it means close the editor. 
 
 ## 8. Run the tests, demonstrating that they now succeed
+
 ![Image](pasd.png)
 
 ## 9. Commit and push the resulting change to your Github account
